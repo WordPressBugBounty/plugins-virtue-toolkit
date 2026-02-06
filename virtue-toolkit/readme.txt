@@ -2,8 +2,8 @@
 Contributors: britner
 Tags: 
 Requires at least: 4.5
-Tested up to: 6.7
-Stable tag: 4.9.9
+Tested up to: 6.9
+Stable tag: 4.9.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,15 @@ Install the plugin into the `/wp-content/plugins/` folder, and activate it.
 Please report security bugs found in the source code of the Virtue Toolkit plugin through the [Patchstack Vulnerability Disclosure Program] https://patchstack.com/database/vdp/virtue-toolkit. The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
 
 == Changelog ==
+
+= 4.9.12 =
+* Fix: Issue with CMB file naming. 
+
+= 4.9.11 =
+* Fix: updating our wp version tested up to. 
+
+= 4.9.10 =
+* Fix: Translation loading. 
 
 = 4.9.9 =
 * Update: Show 6.7 Support.
