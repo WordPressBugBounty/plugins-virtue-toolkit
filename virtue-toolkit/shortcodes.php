@@ -240,6 +240,11 @@ function virtue_toolkit_button_shortcode_function( $atts) {
 		'target' => '_self',
 		'tcolor' => '',
 ), $atts));
+	// Colors come from the button UI as hex values; keep only valid hex.
+	$bcolor      = (string) sanitize_hex_color( $bcolor );
+	$bhovercolor = (string) sanitize_hex_color( $bhovercolor );
+	$tcolor      = (string) sanitize_hex_color( $tcolor );
+	$thovercolor = (string) sanitize_hex_color( $thovercolor );
 	$output = '<a href="'.esc_url($link).'" class="btn button btn-shortcode kad-btn kad-btn-primary" id="kadbtn'.esc_attr($id).'" target="'.esc_attr($target).'" style="';
 	if(!empty($bcolor)) {
 		$output .= 'background-color:'.esc_attr($bcolor).';';
